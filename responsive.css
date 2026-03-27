@@ -1,0 +1,49 @@
+@media only screen and (min-width:200px) and (max-width:576px) {
+    body{
+        padding: 0px 20px;
+    }
+    
+    #icon {
+    width: 80.68px;
+    text-align: right;
+    }
+    .navber{
+        font-size: 16px;
+    }
+    .navber .title{
+        display: none;
+    }
+    .banner-title h1{
+        font-size: 60px;
+        letter-spacing: 1px;
+        
+    }
+    .banner-profile-container{
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-container {
+       
+        background-image:none;
+     }
+
+     .container-card p{
+        text-align: center
+     }
+
+     .container-card h1{
+        text-align: center
+     }
+
+
+
+
+
+     
+}

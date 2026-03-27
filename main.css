@@ -1,0 +1,418 @@
+/* project start */
+
+.project-title {
+  margin: 20px;
+}
+
+.project-title h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.projets {
+  display: grid;
+  /* grid-template-columns: auto auto; */
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.project-btn button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: var(--primary-font-color);
+  font-size: 25px;
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+/* blog section */
+
+.blog-tag {
+  background-color: var(--primary-font-color);
+  width: fit-content;
+  padding: 18px 30px;
+  border-radius: 50px;
+  margin: 30px 0;
+}
+
+.blog-tag h1 {
+  color: var(--primary--background);
+  font-family: poppins;
+}
+
+.round {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  background-color: rgb(120, 0, 233);
+}
+
+.round-2 {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  background-color: rgb(0, 42, 254);
+}
+.date h3{
+  font-family: poppins;
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-name {
+  display: flex;
+  gap: 20px;
+}
+
+.blog-title {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+.blog-title h1{
+  font-family: poppins;
+}
+
+.my-blogs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-img img {
+  width: 90%;
+
+}
+
+
+
+/* testimonial section  */
+
+.testimonial-blog {
+  margin-top: 80px;
+}
+
+.testimonial-title {
+  text-align: center;
+}
+
+.testimonial-title h1 {
+  color: var(--primary--color);
+  font-size: 51px;
+  background: -webkit-linear-gradient(#BA0BF9, #5E4AF1);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.testimonial-title p {
+  margin: 20px 0px;
+  font-family: poppins, Helvetica, sans-serif;
+}
+
+.testimonial-blog {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.test-card-list {
+  display: flex;
+}
+
+.test-card-list {
+  /* height: 47%; */
+  background-image: linear-gradient(#5E4AF12B, #BA0BF933);
+}
+
+.test-card-list2 {
+  margin-top: 20px;
+}
+
+.test-card-list-img img {
+  width: 350px;
+  height: 100%;
+}
+
+.test-content {
+  width: 65%;
+}
+
+.test-desc {
+  padding: 20px 20px;
+}
+
+.test-desc h1 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.test-desc p {
+  margin-top: 10px;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  /* text-align: center; */
+  font-family: Poppins;
+}
+
+.right-content {
+  background-image: linear-gradient(#5E4AF12B, #BA0BF933);
+  width: 30%;
+  /* height: 100%; */
+}
+
+.right-content-img img {
+  width: 100%;
+}
+
+.right-content-title h1 {
+  font-weight: 400;
+  font-family: Poppins;
+  font-size: 36px;
+}
+
+.right-content-title p {
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.right-content-title {
+  padding: 20px 20px;
+}
+
+/* contact section  */
+.contact-container{
+  margin-top: 80px;
+  width: 100%;
+  background-image: linear-gradient(to right, #5E4AF1C3,#BA0BF9E5);
+}
+.contact-content{
+  display: flex;
+  padding: 80px 120px;
+}
+.left-div{
+  width: 60%;
+  /* background-color: red; */
+}
+.left-div h1{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.contact-form{
+  margin-top: 50px;
+  padding: 20px 60px 0px 0px;
+}
+.left-div input{
+  padding: 15px 0px;
+  width: 100%;
+  margin: 25px 0px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.left-div textarea{
+  padding: 15px 0px;
+  width: 100%;
+  margin: 25px 0px;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  border-bottom: 1px solid white;
+}
+.left-div input::placeholder{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 300;
+  color: white;
+}
+.left-div textarea::placeholder{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 300;
+  color: white;
+  bottom: 0;
+}
+.contact-btn{
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 24px;
+  background-color: transparent;
+  color:white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.right-div{
+  padding: 0px 40px;
+}
+.right-div h1{
+  text-transform: uppercase;
+}
+.extra-info{
+  margin-top: 110px;
+}
+.extra-info p{
+  font-family: Poppins;
+  margin: 30px 0px;
+}
+.cont-icons i{
+  margin-right: 40px;
+  font-size: 24px;
+  color: white;  
+}
+.footer-content{
+  padding: 0px 120px;
+}
+.line{
+  border-top:1px solid white ;
+  width: 100%;
+}
+.footer h1{
+  border-top:1px solid white ;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 27px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .projets {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .my-blogs {
+    flex-direction: column;
+  }
+
+
+
+  /* testimonial section  */
+  .testimonial-blog {
+    flex-direction: column;
+  }
+
+  .test-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .test-card-list {
+    display: inline;
+    width: 100%;
+  }
+
+  .test-desc h1 {
+    font-size: 24px;
+  }
+
+  .test-card-list2 {
+    display: inline;
+    width: 100%;
+    background-image: linear-gradient(#5E4AF12B, #BA0BF933);
+  }
+
+  .test-card-list-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .right-content {
+   width: 100%; 
+  }
+
+  .right-content-img img {
+    width: 100%;
+  }
+  .right-content-title h1{
+    font-size: 24px;
+  }
+  .right-content-title p{
+    line-height: 1.6;
+  }
+
+
+
+
+  /* contact section  */
+
+  .contact-container { 
+    background-image: linear-gradient(to top, #5E4AF1C3, #BA0BF9E5);
+}
+
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+}
+.contact-form {
+  margin-top: 20px;
+  padding: 0px 24px;
+}
+.left-div h1 {
+  font-size: 24px;
+  padding: 10px 24px;
+}
+.left-div{
+  width: 100%;
+}
+/* .contact-form input{
+  background-color: transparent;
+  padding: 13px 0px;
+  outline: none;
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+ }
+  */
+.left-div input {
+  background-color: transparent;
+  padding: 13px 0px;
+  outline: none;
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.extra-info {
+  margin-top: 24px;
+}
+.right-div h1 {
+  margin-top: 25px;
+}
+.right-div {
+  padding: 0px 24px;
+}
+.cont-icons{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer h1{
+  padding: 18px;
+}
+.footer-content{
+  padding:0px 24px
+}
+}
